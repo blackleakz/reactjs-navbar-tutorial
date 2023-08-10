@@ -89,3 +89,37 @@ $ pacman -Sy nodejs
 $ pacman -Sy npm
 $ npm install -g npm
 ```
+
+
+# STEP 2:
+
+Create the Project-Enviroment by using the following command in you favourite-directory:
+```
+npx create-react-app my-react-app-navbar
+```
+
+# STEP 3:
+Change the working directory to the project-folder you created in the step before!
+The folder should have the name you set by the command used before!
+Linux:
+```
+$ cd my-react-app-navbar
+```
+Windows:
+```
+> cd my-react-app-navbar
+```
+
+STEP 4:
+Now you have to install node's deps by using the package-manager npm!"
+RUN:
+```
+npm install react-router-dom
+npm install react-bootstrap
+npm install bootstrap
+```
+NOTE: If you fork this repository from codesandbox, you dont need to install them manualy!
+By Forking this repo, codesandbox will install all deps automatically!
+To stay sure, you can run ``` npm i ``` .
+
+# IF YOU FORKED THIS SANDBOX, YOU CAN 
