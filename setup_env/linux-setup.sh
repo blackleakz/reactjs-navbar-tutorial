@@ -60,10 +60,13 @@ read -p "Enter Yy/Nn:>> " yn
 case $yn in 
     y|Y) echo -n "Console > Continue..."; continue;;
     n|N) echo -n "Console > You arent in your ReactJS-App folder, plz enter folder-path now!" && read -p "folder-path: " path && cd $path; continue;;
-    *) echo -n "Invalid input"; continue;;
+    *) echo -n "Invalid input"; menu;;
 esac
 
 
 echo -n "Console > Installing now npm-packages!"
 npm install react-router-dom;
 npm install react-bootstrap;
+npm install bootstrap;
+
+}

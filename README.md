@@ -27,3 +27,8 @@ An Integrated Desktop Enviroment like Visual Studio Code would be awesome, but i
 NPM - Requirements:
 react-bootstrap
 react-router-dom
+bootstrap
+
+INFO:
+
+If you dont want to install the deps manualy, you can use the auto_installer script, placed in the setup_env folder i wrote! But id preferre to install everything manualy to remember them later!" 
