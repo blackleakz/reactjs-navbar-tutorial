@@ -48,9 +48,9 @@ To customize the colors in your Application you need to override the bootstrap's
 
 ```
 
-# STEP 1:
+## STEP 1:
 
-Windows:
+#Windows:
 
 Download Node.JS by opening cmd or powershell and enter following command:
 ```
@@ -63,25 +63,29 @@ After this, you need to update/upgrade the node-package-manager by using this co
 npm install -g npm
 ```
 
-Linux::
+#Linux::
 
 Ubuntu:
 Run as SUDO:
+```
 $ apt-get update;
 $ apt-get install -y npm nodejs;
 $ npm install -g npm
-
+```
 Debian:
 Run as ROOT:
+```
 $ apt-get update;
 $ apt-get install -y npm node*js; # im not sure, if the pkg node.js is avaiable under node.js or nodejs, so i#d preferre to use node*js to stay sure, you dont need to ensure.
 $ npm install -g npm
-
+```
 ArchLinux:
 Run as SUDO:
+```
 $ pacman -Syy
 $ pacman -Sy node.js 
 or
 $ pacman -Sy nodejs
 $ pacman -Sy npm
 $ npm install -g npm
+```
