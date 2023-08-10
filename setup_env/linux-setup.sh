@@ -44,6 +44,28 @@ setup_env;
 }
 
 manual() {
+echo -n "Console > Manual-installation mode is choosed!:: Enter these commands to install all deps:
+"
+
+echo "1: cd into ReactJS Project dir!"
+echo "2: Install all npm-requiremnts::!"
+echo " Enter:"
+echo "npm install bootstrap"
+echo "npm install react-router-dom"
+echo "npm install react-bootstrap"
+read -p "Enter Prject-Path >  " path 
+echo -n "Console > CD INTO : $path "
+cd $path
+
+read -p "Console-Enter npm Command > " cmd 
+$cmd
+read -p "Console-Enter npm Command > " cmd 
+$cmd
+read -p "Console-Enter npm Command > " cmd 
+$cmd
+
+echo -n "Console > All node-deps are now installed! You can now start adding the NavBar-files and edit them!"
+
 
 }
 
