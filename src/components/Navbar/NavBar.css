@@ -1,0 +1,30 @@
+/* Set this to your favourite NavigationBars COLOR!" */
+.color-nav {
+  background-color: darkgray;
+}
+
+/* Set this settings to overrider bootstrap's-css!" This override-method only overrides a NavigationBar, that is configured with the variant="dark" parameter!" 
+Be SURE THAT YOU ADDED : import "bootstrap/dist/css/bootstrap.min.css"; to you App's index.js file!
+In case of overriding the bootstrap-css-values, you can either override the colors in the App's index.css file to stay sure that the override for the navbar is set as soon as possible or override the value in this file! */
+
+.navbar-dark .navbar-brand {
+  color: #00ff9d !important;
+}
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-brand:focus {
+  color: #00ff9d !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #00ff9d !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: #00ff9d !important;
+}
+.navbar-dark .navbar-nav .nav-link.disabled {
+  color: #00ff9d !important;
+}
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #00ff9d !important;
+}
