@@ -32,3 +32,18 @@ bootstrap
 INFO:
 
 If you dont want to install the deps manualy, you can use the auto_installer script, placed in the setup_env folder i wrote! But id preferre to install everything manualy to remember them later!" 
+
+
+
+
+
+Customizing bootstrap:
+
+To customize the colors in your Application you need to override the bootstrap's settings by using the !important  value after the values-tag , for example:
+
+.cssitem {
+    color: black!important;
+}
+
+
+```
