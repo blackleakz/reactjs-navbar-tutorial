@@ -118,8 +118,13 @@ npm install react-router-dom
 npm install react-bootstrap
 npm install bootstrap
 ```
-NOTE: If you fork this repository from codesandbox, you dont need to install them manualy!
-By Forking this repo, codesandbox will install all deps automatically!
-To stay sure, you can run ``` npm i ``` .
 
-# IF YOU FORKED THIS SANDBOX, YOU CAN 
+STEP 5:
+
+cd into the ``` src\ ``` folder!
+
+Create a directory named: " components\ "
+Create a second folder named: "Navbar\ "
+Create the ```Navigationbar.js``` file in the ```src\components\Navbar``` folder!
+Create the ```Navbar.css``` file in the same folder!
+
