@@ -110,7 +110,7 @@ Windows:
 > cd my-react-app-navbar
 ```
 
-STEP 4:
+# STEP 4:
 Now you have to install node's deps by using the package-manager npm!"
 RUN:
 ```
@@ -119,7 +119,7 @@ npm install react-bootstrap
 npm install bootstrap
 ```
 
-STEP 5:
+# STEP 5:
 
 cd into the ``` src\ ``` folder!
 
